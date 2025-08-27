@@ -1,21 +1,21 @@
 # Loan Approval Prediction
 
-This project predicts whether a loan application will be approved using Machine Learning. It uses classification models, feature engineering, hyperparameter tuning, and ensemble methods for high accuracy.
+A Machine Learning project to predict whether a loan application will be approved. This project uses classification algorithms, feature engineering, hyperparameter tuning, and ensemble methods to achieve high prediction accuracy.
 
-## Features
+---
 
-- Preprocessing: handles missing data, encodes categorical features, scales numeric features
+## **Project Overview**
+
+Loan approval prediction is a classic classification problem in finance. The model predicts the likelihood of a loan being approved based on applicant details such as income, credit history, employment status, and property area.
+
+**Key Features:**
+- Data preprocessing: missing value handling, categorical encoding, scaling
+- Feature engineering: one-hot encoding for categorical features
 - Models: Logistic Regression, Decision Tree, Random Forest, Gradient Boosting
-- Hyperparameter tuning with GridSearchCV
-- Ensemble: Voting Classifier for improved accuracy
+- Hyperparameter tuning using GridSearchCV
+- Ensemble method: Soft Voting Classifier
+- Model evaluation: Accuracy, Classification Report, Confusion Matrix
 - Feature importance visualization
-- Save and load trained model
-- Predict new applicant data using a simple function
+- Save/load trained model for predictions
 
-## How to Use
-
-1. Clone the repository
-2. Put your dataset in `data/loan_data.csv`
-3. Train the model:  
-   ```bash
-   python src/train_model.py
+---
